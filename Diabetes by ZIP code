@@ -1,0 +1,41 @@
+Diabetes by ZIP code.md
+##Summary 
+This repository contains number and percentage of diabetes patient in the US during 2013 grouped by ZIP code
+##Description
+Better local estimates of diabetes and obesity prevalence might influence public health efforts in various ways. 
+First, awareness of the size and scope of the problems is important for local policy makers to identify the necessary 
+community and clinical services to prevent and control the conditions. For example, lifestyle programs for diabetes prevention and 
+community support groups for diabetes self-management have been shown effective when they are linked to a referring clinical center. 
+Second, population-targeted interventions (e.g., changes in health-care access, preventive care, food taxation, or food labeling) 
+might affect specific areas, populations segments, or high-risk populations in ways that are not detectable via broad, 
+population-based surveys. More sensitive local area surveillance can provide a better means of tracking such effects.(from MMWR Estimated County-Level Prevalence of Diabetes and Obesity --- United States, 2007)
+#Facts
+* Date created: 2016-11-06
+* Date modified: none
+* Version: 1.0
+* Update frekvency: Yearly
+* Temporal coverage: 2013
+* Spatial coverage: the United States
+* Source: Centers for Disease Control and Prevention
+* Source licence URL: http://www.cdc.gov/diabetes/data/county.html
+* Source licence requirements: Publicly available and free for research application but citation is required. Permission asked for commercial uses
+* Source citation: Author's name, last name first and initials. Name of report. National Center for Health Statistics. Date of release. Available from: full URL.
+ * Keywords
+  * diabetes
+  * ZIP code
+#Schema
+* State
+  * Type: String
+  * Required
+* FIPS code
+  * Type: Number
+  * Required
+* County
+  * Type: String
+  * Required
+* Number
+   * Type: Number
+   * Required
+* Percent
+  *  Type: Number
+  * Required
